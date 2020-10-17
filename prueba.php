@@ -8,22 +8,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
 </head>
-<body id="app">
-    <h1 id="title">Bienvenido, {{ name }}</h1>
-
-    <input type="text" v-model="name" class="form-control">
-    <hr>
-    <pre>{{ $data | json }}</pre>
-    
-    <script type="text/javascript">
-
-        new Vue({
-            el: "#app",
-            data: {
-                name: "Alex"
-            }
-        });
-
-    </script>
+<body>
 </body>
 </html>
